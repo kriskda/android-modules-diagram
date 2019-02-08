@@ -9,5 +9,6 @@ Script to visualize relationships between android modules
 
 ## Getting started
 ```
-python generator.py PATH_TO_PROJECT OPTIONAL_LABEL
+python generator.py PATH_TO_PROJECT
 ```
+It is possible to generate diagrams ith edges colored based on api/compile or implementation. See `should_draw_colors=True` inside `generator.py`
